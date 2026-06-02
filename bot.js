@@ -7,7 +7,7 @@ const CONFIG = {
     RECEH: "0x47f63E5654db977C8Bec9Bd11928c4d517af7655",
     router: "0xa07a8da9C0288c18D5fd85369D8d5b77eE83c91c",
     factory: "0x43cC4516B1b549a47B493D06Fc28f6C58BC4e888",
-    gasLimit: 300000, // Gas limit besar untuk aman
+    gasLimit: 200000, // Gas limit besar untuk aman
 };
 
 const ERC20_ABI = [
@@ -41,8 +41,8 @@ async function forceSellAllReceh() {
     const bnbBalance = await provider.getBalance(account);
     console.log(`⛽ BNB Balance: ${ethers.utils.formatEther(bnbBalance)} BNB (untuk gas)`);
     
-    if (bnbBalance.lt(ethers.utils.parseEther("0.001"))) {
-        console.log(`❌ BNB tidak cukup untuk gas! Minimal 0.001 BNB`);
+    if (bnbBalance.lt(ethers.utils.parseEther("0.000015"))) {
+        console.log(`❌ BNB tidak cukup untuk gas! Minimal 0.000015 BNB`);
         process.exit(1);
     }
     
