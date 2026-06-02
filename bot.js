@@ -24,7 +24,7 @@ const CONFIG = {
     estimatedTxCount: 1,
 };
 
-const MULTICALL_ADDRESS = "0x282B2d9C587AAE6E8B315ECEBC4a57C671d4c59B";
+const MULTICALL_ADDRESS = "0xcA11bde05977b3631167028862bE2a173976CA11";
 const MULTICALL_ABI = [
     { "constant": true, "inputs": [{ "components": [{ "internalType": "address", "name": "target", "type": "address" }, { "internalType": "bytes", "name": "callData", "type": "bytes" }], "internalType": "struct Multicall2.Call[]", "name": "calls", "type": "tuple[]" }], "name": "aggregate", "outputs": [{ "internalType": "uint256", "name": "blockNumber", "type": "uint256" }, { "internalType": "bytes[]", "name": "returnData", "type": "bytes[]" }], "payable": false, "stateMutability": "view", "type": "function" }
 ];
