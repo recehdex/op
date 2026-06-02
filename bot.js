@@ -1,7 +1,7 @@
 const { ethers } = require('ethers');
 
 const CONFIG = {
-    rpcUrl: "https://mainnet.opbnbscan.com",
+    rpcUrl: "https://opbnb-mainnet-rpc.bnbchain.org",
     chainId: 204,
     USDT: "0x4200000000000000000000000000000000000006".toLowerCase(),
     RECEH: "0x47f63E5654db977C8Bec9Bd11928c4d517af7655".toLowerCase(),
