@@ -3,7 +3,7 @@ const { ethers } = require('ethers');
 const CONFIG = {
     rpcUrl: "https://mainnet.opbnbscan.com",
     chainId: 204,
-    USDT: "0x55d398326f99059fF775485246999027B3197955".toLowerCase(),
+    USDT: "0x4200000000000000000000000000000000000006".toLowerCase(),
     RECEH: "0x47f63E5654db977C8Bec9Bd11928c4d517af7655".toLowerCase(),
     factories: {
         recehdex: "0x43cC4516B1b549a47B493D06Fc28f6C58BC4e888"
