@@ -1,7 +1,7 @@
 const { ethers } = require('ethers');
 
 const CONFIG = {
-    rpcUrl: "https://opbnb-mainnet-rpc.bnbchain.org",
+    rpcUrl: "https://bsc-dataseed1.binance.org",
     // Token addresses
     USDT: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c", // WBNB di opBNB
     RECEH: "0x82b10a36c36e46a8555c54627c3f6d0215c34183",
