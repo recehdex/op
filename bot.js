@@ -1,12 +1,12 @@
 const { ethers } = require('ethers');
 
 const CONFIG = {
-    rpcUrl: "https://bsc-dataseed1.binance.org",
+    rpcUrl: "https://opbnb-mainnet-rpc.bnbchain.org",
     // Token addresses
-    USDT: "", // WBNB di opBNB
-    RECEH: "",
-    router: "0x10ED43C718714eb63d5aA57B78B54704E256024E",
-    factory: "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+    USDT: "0x4200000000000000000000000000000000000006", // WBNB di opBNB
+    RECEH: "0x47f63E5654db977C8Bec9Bd11928c4d517af7655",
+    router: "0xa07a8da9C0288c18D5fd85369D8d5b77eE83c91c",
+    factory: "0x43cC4516B1b549a47B493D06Fc28f6C58BC4e888",
     gasLimit: 200000, // Gas limit besar untuk aman
 };
 
